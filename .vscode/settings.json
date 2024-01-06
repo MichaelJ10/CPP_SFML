@@ -1,5 +1,5 @@
 {
-    "C_Cpp.default.compilerPath": "c:\\MinGW\\bin\\g++.exe",
+    "C_Cpp.default.compilerPath": "C:\\msys64\\ucrt64\\bin\\g++.exe",
     "files.associations": {
         "array": "cpp",
         "atomic": "cpp",
@@ -56,6 +56,10 @@
         "iomanip": "cpp",
         "numbers": "cpp",
         "span": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "list": "cpp",
+        "semaphore": "cpp",
+        "stop_token": "cpp",
+        "thread": "cpp"
     }
 }

@@ -7,11 +7,13 @@
             "command": "g++",
             "args": [
                 "-std=c++11",
+                // "-v",
                 "-g",
                 "-o",
                 "${workspaceFolder}\\bin\\main.exe",
-                "${workspaceFolder}\\src\\main.cpp",
+                "${workspaceFolder}\\src\\*.cpp",
                 "-I\"C:\\SFML-2.6.1\\include\"",
+                "-I\"${workspaceFolder}\\include\"",
                 "-L\"C:\\SFML-2.6.1\\lib\"",
                 "-lsfml-graphics-s",
                 "-lsfml-window-s",
@@ -19,7 +21,8 @@
                 "-lopengl32",
                 "-lwinmm",
                 "-lfreetype",
-                "-lgdi32"
+                "-lgdi32",
+                "-lOpenCL"
             ],
             "group": {
                 "kind": "build",
